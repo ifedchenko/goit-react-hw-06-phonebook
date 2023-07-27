@@ -7,14 +7,10 @@ export const DeleteButton = styled.button`
 export const List = styled.ul`
   padding-left: 15px;
   width: 360px;
-  ${'' /* list-style-type: disc; */}
+  
 `;
 export const ListItem = styled.li`
-  ${
-    '' /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
-  }
+ margin-bottom: 5px;
 `;
 export const P = styled.p`
   margin: 0px;
