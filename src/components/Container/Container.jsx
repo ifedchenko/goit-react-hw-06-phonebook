@@ -3,10 +3,13 @@ import PropTypes from 'prop-types';
 
 import { ContainerBlock } from './Container.styled';
 
-export const Container = ({ children }) => {
+const Container = ({ children }) => {
   return <ContainerBlock>{children}</ContainerBlock>;
 };
 
 Container.propTypes = {
   children: PropTypes.node.isRequired,
 };
+
+
+export default Container;
